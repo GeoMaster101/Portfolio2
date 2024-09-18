@@ -1,0 +1,77 @@
+header {
+  border: 2px solid yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main {
+  border: 2px solid rgb(182, 111, 182);
+  min-height: 70vh;
+}
+
+footer {
+  border: 2px solid yellow;
+}
+
+#header-links-container, #footer-links-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+#header-links-container li {
+  margin-right: 20px;
+}
+
+#footer-links-container li {
+  margin: 5px;
+  font-size: 30px;
+}
+
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.warning {
+  color: red;
+  display: none;
+}
+
+#portfolio-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-box {
+  width: 40%;
+  /* height: 200px; */
+  margin: 5px;
+  text-align: center;
+ 
+}
+
+.box {
+  height: 250px;
+  border: 2px solid rgb(49, 51, 31);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.selected {
+  color: purple !important;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.avatar{
+    width: 200px;
+    height: 200px;
+}
+.about-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.about-me div {
+width: 80%;
+line-height: 1.5;
+}
+
+html{
+    font-family: 'Playfair Display', serif;
+}
+
+.my-name{
+    margin-left: 20px;
+}
+
+a:visited, a {
+color:black
+}
