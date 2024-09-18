@@ -7,6 +7,6 @@ Welcome to my portfolio! This site is made from react and it showcases a few of 
 
 
 ## Deployed Link
-[Netlify Link](https://faizahaque.netlify.app/)
+[Netlify Link](https://darling-panda-52513c.netlify.app/)
 
 Thank you for visiting!
